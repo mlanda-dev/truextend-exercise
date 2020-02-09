@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: ms-enrollment
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: password
+server:
+  port: 5050
+logging:
+  level:
+    com.example: TRACE
